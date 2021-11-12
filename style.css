@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  min-height: 200vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* -----Navbar Start-------- */
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  transition: 0.6s;
+  z-index: 100000;
+  background: rgb(225 225 225 225 / 100%);
+  backdrop-filter: saturate(180%) blur(100px);
+  box-shadow: 0 5px 29px 3px rgb(0 0 0 / 8%);
+}
+
+header.sticky {
+  padding: 5px 100px;
+  color: #000000;
+  background: rgb(225 225 225 225 / 100%);
+  backdrop-filter: saturate(180%) blur(100px);
+  box-shadow: 0 5px 29px 3px rgb(0 0 0 / 8%);
+}
+
+header.sticky .logo {
+  color: #ff0000;
+}
+
+header.sticky ul li a {
+  color: #313638;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #313638;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+  font-weight: 500;
+}
+
+/* -----Navbar End-------- */
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  /* background: url(images/Heder_back.jpg);
+  background-size: cover; */
+  background-color: white;
+}

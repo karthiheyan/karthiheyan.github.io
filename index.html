@@ -1,227 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karthik | Personal Website</title>
-    <link rel="icon" href="images/K-icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <style>
-      ::-webkit-scrollbar {
-        width: 0px;
-        height: 0px;
-      }
-      html,
-      body {
-        font-family: helvetica, arial;
-      }
-      h1 {
-        color: rgb(0, 0, 0);
-      }
-      p {
-        font-size: 18px;
-        color: rgb(37, 37, 37);
-        line-height: 1.6rem;
-      }
-      .container {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1350px;
-      }
-      .avatar {
-        vertical-align: middle;
-        border-radius: 50%;
-      }
-      .grid-container {
-        display: grid;
-        grid-template-columns: 23% 77%;
-        grid-gap: 10px;
-        padding: 20px;
-        margin-top: 24px;
-      }
-      .grid-container > div {
-        text-align: left;
-      }
-      hr.gray {
-        border-top: 1px solid #f9f9f9;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      table,
-      th,
-      td {
-        border: 1px solid black;
-        font-size: 0.9rem;
-      }
-      th,
-      td {
-        border: 1px solid black;
-        padding: 8px;
-      }
-      table {
-        border-spacing: 8px;
-      }
-
-      .fa {
-        font-size: 18px;
-      }
-
-      .checked {
-        color: orange;
-      }
-      .heading {
-        font-size: 16px;
-        margin-right: 25px;
-      }
-      .rating-grid {
-        display: grid;
-        grid-template-columns: 22% 78%;
-        grid-gap: 10px;
-        margin-top: 15px;
-      }
-      .button {
-        background-color: #ffffff; /* Green */
-        border: none;
-        color: rgb(109, 109, 109);
-        padding: 13px 28px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        margin-top: 50px;
-        margin-bottom: 40px;
-        box-shadow: rgb(0 0 0 /10%) 0px 5px 29px 3px;
-      }
-      .button:hover {
-        background-color: #ffffff; /* Green */
-        border: none;
-        color: rgb(114, 156, 130);
-        padding: 13px 28px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        margin-top: 50px;
-        margin-bottom: 40px;
-        box-shadow: rgb(0 0 0 /10%) 0px 5px 29px 3px;
-      }
-    </style>
+    <link rel="icon" href="images/karthik-icon.png" />
+    <meta name="keywords" content="Karthiheyan Personal Website" />
+    <meta name="description" content="..." />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="container">
-      <div class="grid-container">
-        <div>
-          <img
-            src="images/karthi.jpg"
-            width="250px"
-            height="250px"
-            alt="Avatar"
-            class="avatar"
-          />
-        </div>
-        <div style="margin-top: 30px">
-          <h1>Yogenthiraraja Karthiheyan</h1>
-          <i
-            ><a href="https://www.linkedin.com/feed/" target="blank">Student</a>
-            of full stuck web develepment</i
-          >
-          <p>
-            I possess a friendly, easy - going and flexible personality. I am
-            highly passionate about Website Development. Looking to grab the
-            right opportunities to show my talents
-          </p>
-        </div>
-      </div>
-
-      <hr class="gray" />
-
-      <h3>Educations</h3>
+    <header>
+      <a href="" class="logo">Logo</a>
       <ul>
-        <li>Full stuck web develepment</li>
-        <li>BIT MCS</li>
-        <li>Computer Network Technology</li>
-        <li>J/Chithembra College (O/L,A/L)</li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">Support</a></li>
       </ul>
-
-      <hr class="gray" />
-
-      <h3>Intrested In</h3>
-      <ol>
-        <li>Web Developing</li>
-        <li>Drawing art, photoshop & Animation</li>
-        <li>Graphic design & Video editing</li>
-        <li>Exercise then traveling</li>
-      </ol>
-
-      <hr class="gray" />
-
-      <h3>Educations Date</h3>
-      <table style="width: 270px">
-        <tr>
-          <th>Date</th>
-          <th>Study Center</th>
-        </tr>
-        <tr>
-          <td>2014</td>
-          <td>J/Chithembara College</td>
-        </tr>
-        <tr>
-          <td>2015</td>
-          <td>Technical College</td>
-        </tr>
-        <tr>
-          <td>2017</td>
-          <td>Univercity Of Jaffna</td>
-        </tr>
-      </table>
-
-      <hr class="gray" />
-
-      <h3>Skills</h3>
-
-      <div class="rating-grid">
-        <div>
-          <span class="heading">Drawing art, photoshop & Animation</span>
-        </div>
-        <div>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-        </div>
-      </div>
-
-      <div class="rating-grid">
-        <div><span class="heading">Web Developing (HTML,CSS)</span></div>
-        <div>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-        </div>
-      </div>
-
-      <div class="rating-grid">
-        <div><span class="heading">Graphic design & Video editing</span></div>
-        <div>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-          <span style="color: rgb(209, 209, 209)" class="fa fa-star"></span>
-        </div>
-      </div>
-
-      <a href="./contact-page.html"
-        ><button class="button">Contact Me</button></a
-      >
-    </main>
+    </header>
+    <section class="banner">
+      <h1 style="color: white">dfdfgdfgdfg</h1>
+    </section>
+    <script src="app.js"></script>
   </body>
 </html>
