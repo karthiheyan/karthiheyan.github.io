@@ -210,7 +210,7 @@
   );
 }
 .sidebar.close .profile-details {
-  /* background: none; */
+  background: none;
   box-shadow: rgb(13 53 112 / 21%) 0px 5px 29px 3px;
 }
 .sidebar.close .profile-details {
@@ -297,7 +297,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
   align-items: center;
   transition: 0.6s;
   height: 60px;
@@ -318,7 +317,7 @@ header.close .sticky {
 }
 
 header.sticky {
-  /* padding: 6px 100px; */
+  padding: 6px 100px;
   color: #000000;
   background: rgb(225 225 225 225 / 100%);
   backdrop-filter: saturate(180%) blur(100px);
@@ -364,18 +363,6 @@ header ul li a {
   transition: 0.6s;
   font-weight: 500;
   margin: 0 15px;
-}
-
-@media (max-width: 960px) {
-  header ul li a {
-    position: relative;
-    text-decoration: none;
-    color: #313638;
-    font-weight: 500px;
-    transition: 0.6s;
-    font-weight: 500;
-    margin: 0 0px;
-  }
 }
 
 @media (max-width: 600px) {
