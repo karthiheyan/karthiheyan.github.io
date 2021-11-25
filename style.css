@@ -318,7 +318,7 @@ header.close .sticky {
 }
 
 header.sticky {
-  padding: 6px 100px;
+  /* padding: 6px 100px; */
   color: #000000;
   background: rgb(225 225 225 225 / 100%);
   backdrop-filter: saturate(180%) blur(100px);
