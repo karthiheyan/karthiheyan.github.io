@@ -12,6 +12,8 @@
   height: 0px;
 }
 
+/* Navbar Start */
+
 a {
   text-decoration: none;
 }
@@ -43,7 +45,7 @@ header {
 }
 
 .header_logo {
-  color: #2068d1;
+  color: #3c4b62;
   font-weight: 600;
   font-size: 1.3rem;
   margin-left: 5px;
@@ -69,7 +71,7 @@ header {
 }
 
 .nav_link:hover {
-  color: #297cfb;
+  color: #202327;
 }
 
 .nav_link:active {
@@ -141,3 +143,108 @@ header {
     right: 0;
   }
 }
+
+/* Navbar End */
+/* Home Head Start */
+
+.custom_container {
+  max-width: 1330px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.home_heder_main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.home_heder_main > div {
+  text-align: left;
+}
+
+.home_heder_main_right h1 {
+  color: #297cfb;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+}
+
+.home_heder_main_right h2 {
+  color: #677483;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.home_heder_main_right p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 540px;
+  color: #3c4b62;
+  margin-top: 50px;
+}
+
+.home_btn_left {
+  background-color: #297cfb;
+  color: #ffffff;
+  width: 140px;
+  border-radius: 80px;
+  margin-top: 60px;
+  border: solid 1px #297cfb;
+  height: 45px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: #00000036 0px 5px 29px 3px;
+}
+
+.home_btn_left:hover {
+  background-color: #2068d1;
+  color: #ffffff;
+  width: 140px;
+  border-radius: 80px;
+  margin-top: 60px;
+  border: solid 1px #2068d1;
+  height: 45px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: #00000036 0px 5px 29px 3px;
+  cursor: pointer;
+}
+
+.home_btn_right {
+  background-color: white;
+  color: #677483;
+  width: 140px;
+  border-radius: 80px;
+  margin-top: 60px;
+  border: solid 1px #fff;
+  height: 45px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: #0000001c 0px 5px 29px 3px;
+  margin-left: 30px;
+}
+.home_btn_right:hover {
+  background-color: white;
+  color: #297cfb;
+  width: 140px;
+  border-radius: 80px;
+  margin-top: 60px;
+  border: solid 1px #fff;
+  height: 45px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: #0000001c 0px 5px 29px 3px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+/* Home Head End */
