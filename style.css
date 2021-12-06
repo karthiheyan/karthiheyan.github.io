@@ -670,7 +670,7 @@ header.sticky .nav_link:hover {
     align-items: center;
     justify-content: center;
     bottom: 200px;
-    left: 220px;
+    left: 250px;
     z-index: 4;
     animation: circle_youtube 5s infinite ease alternate;
     transform-box: fill-box;
