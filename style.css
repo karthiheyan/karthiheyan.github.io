@@ -444,19 +444,19 @@ header.sticky .nav_link:hover {
   bottom: -200px;
   left: 380px;
   z-index: 6;
-  animation: circle_Speach_img 5s;
+  /* animation: circle_Speach_img 5s;
   transform-origin: center;
-  transform-box: fill-box;
+  transform-box: fill-box; */
 }
 
-@keyframes circle_Speach_img {
+/* @keyframes circle_Speach_img {
   from {
     transform: rotateZ(0deg);
   }
   to {
     transform: rotateZ(360deg);
   }
-}
+} */
 
 .circle_Speach_img img {
   width: 100%;
@@ -635,19 +635,19 @@ header.sticky .nav_link:hover {
     border: 5px solid rgb(255, 255, 255);
     bottom: -120px;
     left: 150px;
-    animation: circle_Speach_img 5s;
+    /* animation: circle_Speach_img 5s;
     transform-origin: center;
-    transform-box: fill-box;
+    transform-box: fill-box; */
   }
 
-  @keyframes circle_Speach_img {
+  /* @keyframes circle_Speach_img {
     from {
       transform: rotateZ(0deg);
     }
     to {
       transform: rotateZ(360deg);
     }
-  }
+  } */
   .circle_youtube {
     width: 30px;
     height: 30px;
