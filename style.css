@@ -537,7 +537,7 @@ header.sticky .nav_link:hover {
   }
 
   .home_heder_main_left {
-    margin-top: 270px;
+    margin-top: 200px;
   }
   .home_btn_right {
     margin-top: 26px;
@@ -559,6 +559,130 @@ header.sticky .nav_link:hover {
     font-size: 0.8rem;
     height: 42px;
     margin-top: 40px;
+  }
+
+  .profile_circle {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #fff;
+  }
+
+  .circle_google {
+    width: 70px;
+    height: 70px;
+    margin-top: -370px;
+    margin-left: -20px;
+    border: 15px solid rgb(255, 255, 255);
+    animation: circle_google 5s infinite ease alternate;
+    transform-box: fill-box;
+  }
+  @keyframes circle_google {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(30px, 20px);
+    }
+  }
+
+  .circle_linkdin {
+    width: 48px;
+    height: 48px;
+    border: 15px solid rgb(255, 255, 255);
+    bottom: -260px;
+    left: 30px;
+    animation: circle_linkdin 5s infinite ease alternate;
+    transform-box: fill-box;
+    z-index: 7;
+  }
+
+  @keyframes circle_linkdin {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(-60px, 0);
+    }
+  }
+  .circle_twitter {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: rgb(98 98 98 / 8%) 0px 5px 29px 3px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -80px;
+    left: 150px;
+    z-index: 7;
+    animation: circle_twitter 5s infinite ease alternate;
+    transform-box: fill-box;
+  }
+
+  @keyframes circle_twitter {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(0, -50px);
+    }
+  }
+
+  .circle_Speach_img {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgb(98 98 98 / 8%) 0px 5px 29px 3px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -120px;
+    left: 150px;
+    z-index: 6;
+    animation: circle_Speach_img 5s;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes circle_Speach_img {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  .circle_youtube {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 22%) 0px 5px 29px 3px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 200px;
+    left: 220px;
+    z-index: 4;
+    animation: circle_youtube 5s infinite ease alternate;
+    transform-box: fill-box;
+  }
+
+  @keyframes circle_youtube {
+    from {
+      transform: translate(30px, 0);
+    }
+    to {
+      transform: translate(0, 0);
+    }
   }
 }
 
