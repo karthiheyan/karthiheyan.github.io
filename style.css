@@ -225,7 +225,7 @@ header.sticky .nav_link:hover {
 }
 
 .home_heder_main_right h1 {
-  color: #297cfb;
+  color: #6a7483;
   font-size: 48px;
   line-height: 54px;
   font-weight: 700;
@@ -326,6 +326,27 @@ header.sticky .nav_link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.camera_img_circle {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: rgba(4, 11, 35, 0.08) 0px 0px 32px 0px;
+  text-align: center;
+  border: 25px solid #fff;
+  margin-top: -52px;
+  z-index: 5;
+}
+
+.camera_img_circle img {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border-radius: 50%;
+  left: 450px;
+  margin-top: -100px;
+  margin-left: -55px;
 }
 
 .profile_circle {
@@ -443,7 +464,9 @@ header.sticky .nav_link:hover {
   justify-content: center;
   bottom: -200px;
   left: 380px;
-  z-index: 6;
+  z-index: 9;
+  display: block;
+
   /* animation: circle_Speach_img 5s;
   transform-origin: center;
   transform-box: fill-box; */
@@ -543,6 +566,35 @@ header.sticky .nav_link:hover {
   .home_heder_main_left {
     margin-top: 200px;
   }
+
+  .camera_img_circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: rgba(4, 11, 35, 0.08) 0px 0px 32px 0px;
+    text-align: center;
+    border: 25px solid #fff;
+    margin-top: -52px;
+    z-index: 8;
+    background-color: #297cfb;
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(41, 124, 251, 1) 100%
+    ); */
+  }
+
+  .camera_img_circle img {
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    border-radius: 50%;
+    left: 450px;
+    margin-top: -70px;
+    margin-left: -33px;
+  }
+
   .home_btn_right {
     margin-top: 26px;
     font-size: 0.8rem;
@@ -612,8 +664,8 @@ header.sticky .nav_link:hover {
     width: 45px;
     height: 45px;
     border: 10px solid rgb(255, 255, 255);
-    top: -80px;
-    left: 150px;
+    top: -100px;
+    left: 180px;
     z-index: 7;
     animation: circle_twitter 5s infinite ease alternate;
     transform-box: fill-box;
@@ -635,6 +687,7 @@ header.sticky .nav_link:hover {
     border: 5px solid rgb(255, 255, 255);
     bottom: -120px;
     left: 150px;
+    display: none;
     /* animation: circle_Speach_img 5s;
     transform-origin: center;
     transform-box: fill-box; */
@@ -652,16 +705,17 @@ header.sticky .nav_link:hover {
     width: 30px;
     height: 30px;
     border: 5px solid rgb(255, 255, 255);
-    bottom: 200px;
-    left: 250px;
+    bottom: -150px;
+    left: 225px;
     animation: circle_youtube 5s infinite ease alternate;
     transform-box: fill-box;
     box-shadow: rgb(98 98 98 / 8%) 0px 5px 29px 3px;
+    z-index: 11;
   }
 
   @keyframes circle_youtube {
     from {
-      transform: translate(30px, 0);
+      transform: translate(40px, 0);
     }
     to {
       transform: translate(0, 0);
