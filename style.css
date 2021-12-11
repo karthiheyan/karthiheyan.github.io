@@ -225,7 +225,7 @@ header.sticky .nav_link:hover {
 }
 
 .home_heder_main_right h1 {
-  color: #6a7483;
+  color: #297cfb;
   font-size: 48px;
   line-height: 54px;
   font-weight: 700;
@@ -465,7 +465,7 @@ header.sticky .nav_link:hover {
   bottom: -200px;
   left: 380px;
   z-index: 9;
-  display: block;
+  /* display: block; */
 
   /* animation: circle_Speach_img 5s;
   transform-origin: center;
