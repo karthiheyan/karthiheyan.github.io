@@ -517,6 +517,211 @@ header.sticky .nav_link:hover {
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .Home_left_container {
+    max-width: 1330px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .Home_right_container {
+    max-width: 1330px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .home_heder_main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+    height: 100vh;
+    background-image: url(/Images/home_back_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: -100px;
+  }
+
+  .home_heder_main_right h1 {
+    font-size: 30px;
+  }
+
+  .home_heder_main_right h2 {
+    font-size: 32px;
+  }
+  .home_heder_main_right p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .home_heder_main_right {
+    margin-top: 160px;
+  }
+
+  .home_heder_main_left {
+    margin-top: 200px;
+  }
+
+  .camera_img_circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: rgba(4, 11, 35, 0.08) 0px 0px 32px 0px;
+    text-align: center;
+    border: 25px solid #fff;
+    margin-top: -52px;
+    z-index: 8;
+    background-color: #297cfb;
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(41, 124, 251, 1) 100%
+    ); */
+  }
+
+  .camera_img_circle img {
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    border-radius: 50%;
+    left: 450px;
+    margin-top: -70px;
+    margin-left: -33px;
+  }
+
+  .home_btn_right {
+    margin-top: 26px;
+    font-size: 0.8rem;
+    height: 42px;
+  }
+  .home_btn_right:hover {
+    margin-top: 26px;
+    font-size: 0.8rem;
+    height: 42px;
+  }
+
+  .home_btn_left {
+    font-size: 0.8rem;
+    height: 42px;
+    margin-top: 40px;
+  }
+  .home_btn_left:hover {
+    font-size: 0.8rem;
+    height: 42px;
+    margin-top: 40px;
+  }
+
+  .profile_circle {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #fff;
+  }
+
+  .circle_google {
+    width: 70px;
+    height: 70px;
+    margin-top: -370px;
+    margin-left: -20px;
+    border: 15px solid rgb(255, 255, 255);
+    animation: circle_google 5s infinite ease alternate;
+    transform-box: fill-box;
+  }
+  @keyframes circle_google {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(30px, 20px);
+    }
+  }
+
+  .circle_linkdin {
+    width: 48px;
+    height: 48px;
+    border: 15px solid rgb(255, 255, 255);
+    bottom: -260px;
+    left: 30px;
+    animation: circle_linkdin 5s infinite ease alternate;
+    transform-box: fill-box;
+    z-index: 7;
+  }
+
+  @keyframes circle_linkdin {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(-60px, 0);
+    }
+  }
+  .circle_twitter {
+    width: 45px;
+    height: 45px;
+    border: 10px solid rgb(255, 255, 255);
+    top: -100px;
+    left: 180px;
+    z-index: 7;
+    animation: circle_twitter 5s infinite ease alternate;
+    transform-box: fill-box;
+    box-shadow: rgb(98 98 98 / 8%) 0px 5px 29px 3px;
+  }
+
+  @keyframes circle_twitter {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(0, -50px);
+    }
+  }
+
+  .circle_Speach_img {
+    width: 120px;
+    height: 120px;
+    border: 5px solid rgb(255, 255, 255);
+    bottom: -105px;
+    left: 170px;
+    /* animation: circle_Speach_img 5s;
+    transform-origin: center;
+    transform-box: fill-box; */
+  }
+
+  /* @keyframes circle_Speach_img {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  } */
+  .circle_youtube {
+    width: 30px;
+    height: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    bottom: 180px;
+    left: 225px;
+    animation: circle_youtube 5s infinite ease alternate;
+    transform-box: fill-box;
+    box-shadow: rgb(98 98 98 / 8%) 0px 5px 29px 3px;
+    z-index: 11;
+  }
+
+  @keyframes circle_youtube {
+    from {
+      transform: translate(40px, 0);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .Home_left_container {
     max-width: 1330px;
@@ -686,7 +891,7 @@ header.sticky .nav_link:hover {
     height: 120px;
     border: 5px solid rgb(255, 255, 255);
     bottom: -105px;
-    left: 160px;
+    left: 170px;
     /* animation: circle_Speach_img 5s;
     transform-origin: center;
     transform-box: fill-box; */
