@@ -741,10 +741,10 @@ header.sticky .nav_link:hover {
 
   .home_heder_main {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 50% 50%;
     grid-gap: 0px;
     height: 100vh;
-    background-image: url(/Images/home_back_mobile.png);
+    /* background-image: url(/Images/home_back_mobile.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
